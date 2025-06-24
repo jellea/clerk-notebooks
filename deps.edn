@@ -1,0 +1,7 @@
+{:deps {#_#_org.clojure/clojure {:mvn/version "1.12.1.1550"}
+        io.github.nextjournal/clerk {:mvn/version "0.17.1102"}}
+ :aliases {:nextjournal/clerk  {:exec-fn nextjournal.clerk/build!
+                                :exec-args {:paths ["index.md"
+                                                    "notebooks/rhythmn_time_studies/fitting_nested_tuplets.clj"
+                                                    "notebooks/rhythmn_time_studies/tempo_networks.clj"
+                                                    "notebooks/rhythmn_time_studies/fitting_euclid_alt.clj"]}}}}
